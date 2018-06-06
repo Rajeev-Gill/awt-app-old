@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plena</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link rel="stylesheet" href="styles/peppermint.css">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+        <div id="screen1" class="active">
+            <div class="row">
+              <div class="screen1-sect1 col-4">
+                <img src="images/logomark.png" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="screen1-sect2 col-8 peppermint peppermint-inactive" id="peppermint">
+                <figure>
+                  <h3>We are what we eat</h3>
+                  <p>Explore your symptoms,<br>
+                    learn about the health <br>
+                    benefits of food and <br>
+                    collect recipes.</p>
+                    <p class="swipe">Swipe left to learn more</p>
+                </figure>
+                <figure> <img src="images/ob1.png" alt=""> </figure>
+                <figure> <img src="images/ob2.png" alt=""> </figure>
+                <figure> <img src="images/ob3.png" alt=""> </figure>
+                <figure> <img src="images/ob4.png" alt=""> </figure>
+              </div>
+            </div>
+            <div class="row">
+              <div class="screen1-sect3">
+                <div class="next">
+                  Get Started
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="screen2" class="hidden">
+          <div class="header">
+            <img src="images/logomark.png" alt="">
+          </div>
+          <div class="controls">
+            <img src="images/arrow-left.png" class="back" alt="">
+            <h4>Menu</h4>
+          </div>
+          <div class="list">
+            <h2 class="list-header">Choose by Health Issues/Food Benefits:</h2>
+            <ul class="issues">
+              <li class="issue issue-1">Fat Fighting Foods<img src="images/arrow-right.png" alt=""></li>
+              <li class="issue issue-2">Foods for Your Immune System<img src="images/arrow-right.png" alt=""></li>
+              <li class="issue issue-3">Foods for Your Skin<img src="images/arrow-right.png" alt=""></li>
+              <li class="issue issue-4">Foods for Sore Muscles<img src="images/arrow-right.png" alt=""></li>
+              <li class="issue issue-5">Foods for High Cholesterol<img src="images/arrow-right.png" alt=""></li>
+              <li class="issue issue-6">Anti Cancer Foods<img src="images/arrow-right.png" alt=""></li>
+              <li class="issue issue-7">Anti Inflammatory Foods<img src="images/arrow-right.png" alt=""></li>
+            </ul>
+          </div>
+          <div class="browse-button">
+            <h2 class="browse">Browse All Foods<img src="images/browse.png" alt=""></h2>
+          </div>
+          <div class="footer">
+            <img src="images/Home.png" alt="">
+          </div>
+        </div>
+        <div id="screen3" class="hidden">
+          <div class="header">
+            <img src="images/logomark.png" alt="">
+          </div>
+          <div class="controls">
+            <img src="images/arrow-left.png" class="back" alt="">
+            <h4>Menu</h4>
+          </div>
+          <div class="list">
+            <ul class="food-items"></ul>
+          </div>
+          <div class="browse-button">
+            <h2 class="browse">Browse All Foods<img src="images/browse.png" alt=""></h2>
+          </div>
+          <div class="footer">
+            <img src="images/Home.png" alt="">
+          </div>
+        </div>
+        <div id="screen4" class="hidden">
+          <div class="controls">
+            <img src="images/arrow-left.png" class="back" alt="">
+            <h4 class="food-item-title">Oranges</h4>
+          </div>
+          <div class="food-info">
+            <div class="food-info--header">
+              <img src="images/Orange.jpg" class="foodImage" alt="">
+              <h2>Benefits</h2>
+            </div>
+            <p>Relieves pain in your head and helps to relax. Relieves headaches, sinus congestion, and neck tension with cool, tingling relief in minutes!</p>
+            <div class="nutritional-info">
+              <h4 class="nutrition-button">Click to see nutritional information</h4>
+              <table class="nutritional-info--table">
+                <tr>
+                  <th class="left">Calories</th>
+                  <th id="calories" class="right"></th>
+                </tr>
+                <tr>
+                  <th class="left">Fats</th>
+                  <th id="fats" class="right"></th>
+                </tr>
+                <tr>
+                  <th class="left">Carbohydrates</th>
+                  <th  id="carbs" class="right"></th>
+                </tr>
+                <tr>
+                  <th class="left">Fiber</th>
+                  <th  id="fiber" class="right"></th>
+                </tr>
+                <!-- <tr>
+                  <th class="left">Sugar</th>
+                  <th  id="sugar" class="right">7.7g</th>
+                </tr> -->
+                <tr>
+                  <th class="left">Protein</th>
+                  <th  id="proteins" class="right"></th>
+                </tr>
+                <tr>
+                  <th class="left">Vitamins</th>
+                  <th  id="vits" class="right"></th>
+                </tr>
+              </table>
+              <div class="recipe-container">
+                <h5 class="recipes">
+                  Healthy Recipes
+                </h5>
+                <ul class="recipe-list">
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <img src="images/Home.png" alt="">
+          </div>
+        </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="scripts/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="scripts/peppermint.min.js"></script>
+    <script src="scripts/foods.json"></script>
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

@@ -1,0 +1,52 @@
+foods = [
+  {
+    "foodItemName": "Artichoke",
+    "foodItemBenefits": ["skin","fat"],
+    "image": "../app/images/artichoke.jpg"
+  },
+  {
+    "foodItemName": "Bell Pepper",
+    "foodItemBenefits": ["skin","fat"]
+  },
+  {
+    "foodItemName": "Carrot",
+    "foodItemBenefits": ["skin","fat","cancer"]
+  },
+  {
+    "foodItemName": "Dill",
+    "foodItemBenefits": ["muscle","cholesterol"],
+    "image": "../app/images/dill.jpg"
+  },
+  {
+    "foodItemName": "Fennel",
+    "foodItemBenefits": ["skin","fat","muscle","cholesterol","cancer"]
+  },
+  {
+    "foodItemName": "Green Beans",
+    "foodItemBenefits": ["cancer","cholesterol","immune"]
+  },
+  {
+    "foodItemName": "Jalapeños",
+    "foodItemBenefits": ["cancer","immune"]
+  },
+  {
+    "foodItemName": "Kale",
+    "foodItemBenefits": ["Cancer","fat","antImf"]
+  },
+  {
+    "foodItemName": "Leeks",
+    "foodItemBenefits": ["cancer","cholesterol","immune"]
+  },
+  {
+    "foodItemName": "Onion",
+    "foodItemBenefits": ["cancer","cholesterol"]
+  },
+  {
+    "foodItemName": "Parsnip",
+    "foodItemBenefits": ["antImf","fat"]
+  },
+  {
+    "foodItemName": "Radish",
+    "foodItemBenefits": ["antImf","cholesterol"]
+  }
+]
